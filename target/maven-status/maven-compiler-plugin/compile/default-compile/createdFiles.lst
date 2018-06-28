@@ -1,0 +1,4 @@
+com\kpn\nl\assignment\person\Person.class
+com\kpn\nl\assignment\controller\PersonController.class
+com\kpn\nl\assignment\person\PersonApp.class
+com\kpn\nl\assignment\service\PersonService.class

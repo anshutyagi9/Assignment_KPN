@@ -1,0 +1,12 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+<xsd:element name="person">
+<xsd:complexType>
+	<xsd:sequence>
+		<xsd:element name="id" type="xsd:int"/>
+		<xsd:element name="name" type="xsd:string" />
+		<xsd:element name="age" type="xsd:int"/>
+
+	</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

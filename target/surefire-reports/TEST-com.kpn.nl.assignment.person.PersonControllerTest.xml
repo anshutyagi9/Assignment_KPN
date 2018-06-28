@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kpn.nl.assignment.person.PersonControllerTest" time="0.575" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="user.country.format" value="NL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\C25291\eclipse-workspace\EmpManagment\person"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\C25291\eclipse-workspace\EmpManagment\person"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\C25291\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\C25291\eclipse-workspace\EmpManagment\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1979852879594565580.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_162/bin/server;C:/Program Files/Java/jre1.8.0_162/bin;C:/Program Files/Java/jre1.8.0_162/lib/amd64;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files\TortoiseGit\bin;C:\Users\C25291\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\C25291"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="C25291"/>
+    <property name="java.class.path" value="C:\Users\C25291\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="nl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\C25291\eclipse-workspace\EmpManagment\person\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="shouldReturnOk" classname="com.kpn.nl.assignment.person.PersonControllerTest" time="0.483">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.kpn.nl.assignment.person.PersonControllerTest.shouldReturnOk(PersonControllerTest.java:38)
+]]></failure>
+    <system-out><![CDATA[00:16:16.918 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:16.954 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:16:16.979 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:16:17.022 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kpn.nl.assignment.person.PersonControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:16:17.041 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kpn.nl.assignment.person.PersonControllerTest], using SpringBootContextLoader
+00:16:17.048 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kpn.nl.assignment.person.PersonControllerTest]: class path resource [com/kpn/nl/assignment/person/PersonControllerTest-context.xml] does not exist
+00:16:17.049 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kpn.nl.assignment.person.PersonControllerTest]: class path resource [com/kpn/nl/assignment/person/PersonControllerTestContext.groovy] does not exist
+00:16:17.049 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kpn.nl.assignment.person.PersonControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:16:17.050 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kpn.nl.assignment.person.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:16:17.146 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.238 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:16:17.240 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:16:17.241 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:16:17.267 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kpn/nl/assignment/person/] to resources [URL [file:/C:/Users/C25291/eclipse-workspace/EmpManagment/person/target/test-classes/com/kpn/nl/assignment/person/], URL [file:/C:/Users/C25291/eclipse-workspace/EmpManagment/person/target/classes/com/kpn/nl/assignment/person/]]
+00:16:17.268 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\test-classes\com\kpn\nl\assignment\person]
+00:16:17.270 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\test-classes\com\kpn\nl\assignment\person] for files matching pattern [C:/Users/C25291/eclipse-workspace/EmpManagment/person/target/test-classes/com/kpn/nl/assignment/person/*.class]
+00:16:17.274 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\classes\com\kpn\nl\assignment\person]
+00:16:17.275 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\classes\com\kpn\nl\assignment\person] for files matching pattern [C:/Users/C25291/eclipse-workspace/EmpManagment/person/target/classes/com/kpn/nl/assignment/person/*.class]
+00:16:17.277 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kpn/nl/assignment/person/*.class] to resources [file [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\test-classes\com\kpn\nl\assignment\person\PersonControllerTest.class], file [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\classes\com\kpn\nl\assignment\person\Person.class], file [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\classes\com\kpn\nl\assignment\person\PersonApp.class]]
+00:16:17.345 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\C25291\eclipse-workspace\EmpManagment\person\target\classes\com\kpn\nl\assignment\person\PersonApp.class]
+00:16:17.347 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kpn.nl.assignment.person.PersonApp for test class com.kpn.nl.assignment.person.PersonControllerTest
+00:16:17.354 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kpn.nl.assignment.person.PersonControllerTest]: using defaults.
+00:16:17.362 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+00:16:17.387 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+00:16:17.388 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+00:16:17.395 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18a70f16, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@62e136d3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c8e4bb0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6279cee3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4206a205, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@29ba4338, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@57175e74, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7bb58ca3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c540f5a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@770c2e6b]
+00:16:17.400 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.401 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.404 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.404 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:16:17.404 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:16:17.404 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kpn.nl.assignment.person.PersonControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:16:17.405 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kpn.nl.assignment.person.PersonControllerTest], using SpringBootContextLoader
+00:16:17.406 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kpn.nl.assignment.person.PersonControllerTest]: class path resource [com/kpn/nl/assignment/person/PersonControllerTest-context.xml] does not exist
+00:16:17.407 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kpn.nl.assignment.person.PersonControllerTest]: class path resource [com/kpn/nl/assignment/person/PersonControllerTestContext.groovy] does not exist
+00:16:17.407 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kpn.nl.assignment.person.PersonControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:16:17.408 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kpn.nl.assignment.person.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:16:17.420 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.421 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:16:17.422 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:16:17.422 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:16:17.422 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kpn.nl.assignment.person.PersonApp for test class com.kpn.nl.assignment.person.PersonControllerTest
+00:16:17.427 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kpn.nl.assignment.person.PersonControllerTest]: using defaults.
+00:16:17.431 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+00:16:17.435 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+00:16:17.435 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+00:16:17.436 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@17c386de, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5af97850, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ef60048, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d548a08, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16aa0a0a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@780cb77, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@691a7f8f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50a7bc6e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@161b062a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@17c1bced]
+00:16:17.436 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.436 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.437 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.438 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.447 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@78b1cc93 testClass = PersonControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6646153 testClass = PersonControllerTest, locations = '{}', classes = '{class com.kpn.nl.assignment.person.PersonApp}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.ImportsContextCustomizer@2bd0e396, org.springframework.boot.test.context.SpringBootTestContextCustomizer@7d907bac, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6325a3ee, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@72b6cbcc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+00:16:17.450 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.451 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kpn.nl.assignment.person.PersonControllerTest]
+00:16:17.552 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+00:16:17.553 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+00:16:17.555 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+00:16:17.561 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+00:16:17.563 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2018-06-28 00:16:19.634  INFO 18276 --- [           main] c.k.n.a.person.PersonControllerTest      : Starting PersonControllerTest on NLLR4000510648 with PID 18276 (started by C25291 in C:\Users\C25291\eclipse-workspace\EmpManagment\person)
+2018-06-28 00:16:19.635  INFO 18276 --- [           main] c.k.n.a.person.PersonControllerTest      : No active profile set, falling back to default profiles: default
+2018-06-28 00:16:19.684  INFO 18276 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b218417: startup date [Thu Jun 28 00:16:19 CEST 2018]; root of context hierarchy
+2018-06-28 00:16:25.522  INFO 18276 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-06-28 00:16:25.522  INFO 18276 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-06-28 00:16:26.034  INFO 18276 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/personapp/v1/person/id/{id}],methods=[GET],consumes=[*/*],produces=[application/xml]}" onto public org.springframework.http.ResponseEntity<com.kpn.nl.assignment.person.Person> com.kpn.nl.assignment.controller.PersonController.getPersonById(int)
+2018-06-28 00:16:26.038  INFO 18276 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-28 00:16:26.039  INFO 18276 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-28 00:16:26.137  INFO 18276 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-28 00:16:26.137  INFO 18276 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-28 00:16:26.194  INFO 18276 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-28 00:16:26.959  INFO 18276 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5b218417: startup date [Thu Jun 28 00:16:19 CEST 2018]; root of context hierarchy
+2018-06-28 00:16:27.743  INFO 18276 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 2221 ms
+2018-06-28 00:16:28.802  INFO 18276 --- [           main] c.k.n.a.person.PersonControllerTest      : Started PersonControllerTest in 11.191 seconds (JVM running for 12.551)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/personapp/v1/person/id/13
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = com.kpn.nl.assignment.controller.PersonController
+           Method = public org.springframework.http.ResponseEntity<com.kpn.nl.assignment.person.Person> com.kpn.nl.assignment.controller.PersonController.getPersonById(int)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/personapp/v1/person/id/13
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = com.kpn.nl.assignment.controller.PersonController
+           Method = public org.springframework.http.ResponseEntity<com.kpn.nl.assignment.person.Person> com.kpn.nl.assignment.controller.PersonController.getPersonById(int)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnNotFound" classname="com.kpn.nl.assignment.person.PersonControllerTest" time="0.092"/>
+</testsuite>
